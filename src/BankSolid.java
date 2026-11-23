@@ -9,16 +9,16 @@ public class BankSolid {
         Giro budi = new Giro("201", "Budi", 200000, 500000);
         Deposito dewi = new Deposito("301", "Dewi", 5000000, 4.0);
 
-        // Array seluruh rekening
+        // Array seluruh rekening.
         Rekening[] semua = { ani, citra, budi, dewi };
 
-        // Array rekening yang mendapatkan bunga
+        // Array rekening yang mendapatkan bunga.
         BerBunga[] berbunga = { ani, citra, dewi };
 
-        // Array rekening yang bisa ditarik
+        // Array rekening yang bisa ditarik.
         BisaDitarik[] bisaDitarik = { ani, citra, budi };
         // Pengujian ISP:
-// Error: incompatible types: Deposito cannot be converted to BisaDitarik
+// Error: incompatible types: Deposito cannot be converted to BisaDitarik.
 
         // Membuat objek notifikasi Email
         Notifikasi notifikasi = new EmailNotifikasi();
